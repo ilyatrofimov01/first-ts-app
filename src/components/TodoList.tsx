@@ -24,7 +24,6 @@ const TodoList: React.FC = () => {
     if (error) {
         return <div>{`Error: ${error}`}</div>
     }
-
     return (
         <div>
             {todos.map((todo) => {

@@ -1,5 +1,11 @@
+interface TodosData{
+    id:number
+    userId:number
+    title:string
+    comleted:boolean
+}
 export interface TodoState {
-    todos: any[];
+    todos: TodosData[];
     loading: boolean;
     error: null | string;
     page: number;
